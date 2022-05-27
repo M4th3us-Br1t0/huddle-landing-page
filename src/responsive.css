@@ -1,0 +1,39 @@
+@media(max-width: 68.75rem){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informacoes{
+        margin-top: 0;
+    }
+}
+
+
+@media(max-width: 48rem){
+    .main img{
+        width: 100%;
+    }
+    .main{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .informacoes h1{
+        font-size: 1.625rem;
+    }
+
+    .informacoes p{
+        font-size: 1.063rem;
+    }
+
+    .informacoes a{
+        padding: 0.813rem 5.625rem;
+    }
+
+    .social{ 
+        text-align: center;
+        margin-top: 6.25rem;
+        margin-bottom: 1.25rem;
+    }
+}
